@@ -1,13 +1,9 @@
-.wrapper {
-	width: 1240px;
-	margin: 0 auto;
-}
 body {
     font-family: 'Barlow', sans-serif!important;
 }
-.navbar {
-    height: 75px;
-}
+/* .navbar {
+    z-index: 1;
+} */
 .nav-link.active, a.nav-link:hover {
      color: #000000;
 }
@@ -208,7 +204,7 @@ h2.v-title {
     overflow: hidden;
     float: left;
 }
-.ig-gap.col-2 {
+.ig-gap.col-md-2,.ig-gap.col-4 {
     padding: 0 1px 0 1px;
 }
 .ig-gap img {
@@ -295,3 +291,77 @@ li {
     float: left;
     margin-bottom: 10px;
 }
+
+
+@media (max-width: 576px) { 
+    .carousel-caption h1 {
+        font-size: 28px;
+        font-weight: bold;
+    }
+    .carousel-caption p {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .carousel-caption {
+        padding-top: 40px!important;
+        padding-bottom: 40px!important;
+    }
+    .carousel-inner {
+        height: auto;
+    }
+    .border-l {
+        padding-right: 55px!important;
+        padding-left: 55px!important;
+    }
+    .category-show {
+        padding: 10px;
+    }
+    h2.title {
+        font-size: 30px;
+        margin-bottom: 55px;
+    }
+    p.title-yellow {
+        margin-bottom: 5px;
+    }
+    .center-gap {
+        width: 100%;
+    }
+    .video-bg {
+        height: auto;
+    }
+    .border-o {
+        width: 100px;
+        height: 100px;
+        padding: 15px;
+    }
+    h2.v-title {
+        font-size: 30px;
+    }
+    .ig-img {
+        width: 100%;
+        height: 125px;
+    }
+    .border-l {
+        padding: 100px 0 50px 0;
+    }
+    .border-c {
+        padding: 50px 0 50px 0;
+    }
+    .border-r {
+        padding: 50px 0 100px 0;
+    }
+    .border-l h2, .border-c h2, .border-r h2 {
+        font-size: 28px;
+    }
+    .form-group {
+        width: 100%!important;
+    }
+    .form-email {
+        width: 100%!important;
+    }
+    .btn-sign {
+        font-size: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+ }
